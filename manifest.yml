@@ -1,0 +1,9 @@
+---
+applications:
+- name: springbootdemo
+  host: spring-boot-sample-cloudfoundry
+  path: target/springbootdemo.war
+  memory: 256M
+  disk_quota: 256M
+  instances: 1
+random-route: true
